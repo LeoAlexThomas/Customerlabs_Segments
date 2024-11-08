@@ -1,0 +1,45 @@
+{
+  "name": "segment",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env ENV=dev next dev",
+    "build": "cross-env ENV=dev next build",
+    "start": "cross-env ENV=dev npx serve@latest out",
+    "stage:build": "cross-env ENV=stage next build",
+    "stage:start": "cross-env ENV=stage next start",
+    "prod:build": "cross-env ENV=prod next build",
+    "prod:start": "cross-env ENV=prod next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@types/js-cookie": "^3.0.6",
+    "@types/lodash": "^4.17.7",
+    "axios": "^1.7.7",
+    "cross-env": "^7.0.3",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.5",
+    "emotion-icons": "^3.27.0",
+    "framer-motion": "^11.5.4",
+    "js-cookie": "^3.0.5",
+    "lodash": "^4.17.21",
+    "next": "14.2.5",
+    "nookies": "^2.5.2",
+    "react": "^18",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18",
+    "react-hook-form": "^7.52.1",
+    "swr": "^2.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "typescript": "^5"
+  }
+}
